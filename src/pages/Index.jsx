@@ -18,6 +18,17 @@ const Index = () => {
           Learn More
         </Button>
       </VStack>
+      <VStack spacing={6} mt={10}>
+        <Heading as="h2" size="xl" textAlign="center">
+          History of Apples
+        </Heading>
+        <Box boxSize="200px">
+          <Image src="/images/history-of-apples.jpg" alt="History of Apples" />
+        </Box>
+        <Text fontSize="lg" textAlign="center">
+          Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and Christian traditions.
+        </Text>
+      </VStack>
     </Container>
   );
 };
